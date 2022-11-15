@@ -9,7 +9,6 @@ class UI {
   }
 
   /**
-   *
    * Show all post
    */
   showPosts(posts) {
@@ -40,7 +39,7 @@ class UI {
    */
   showAlert(message, className) {
     this.clearAlert();
-    //create div
+    // create div
     const div = document.createElement("div");
     //add classes
     div.className = className;
@@ -56,7 +55,7 @@ class UI {
     //timeout
     setTimeout(() => {
       this.clearAlert();
-    }, 3000);
+    }, 5000);
   }
 
   /**
